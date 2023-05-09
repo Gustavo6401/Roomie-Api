@@ -18,6 +18,7 @@
         public string? Status { get; set; }
 
         public Usuario? Usuario { get; set; }
+        public Reserva? Reserva { get; set; }
         public IList<Foto>? Fotos { get; set; }
     }
 }

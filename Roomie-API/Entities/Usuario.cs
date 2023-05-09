@@ -18,5 +18,6 @@
         public string? Curso { get; set; }
 
         public IList<Quarto>? Quartos { get; set; }
+        public IList<Reserva>? Reservas { get; set; }
     }
 }

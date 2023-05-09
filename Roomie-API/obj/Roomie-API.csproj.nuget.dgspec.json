@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gustavo\\Documents\\Gustavo TI\\Programação\\C#\\YouTube\\Curso Lógica de Programação\\Aula 2 - Saída de Dados\\Roomie-API\\Roomie-API\\Roomie-API.csproj": {}
+    "C:\\Users\\Gustavo\\Documents\\Gustavo TI\\Programação\\Faculdade\\Projeto Integrador 5\\Roomie-API\\Roomie-API\\Roomie-API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gustavo\\Documents\\Gustavo TI\\Programação\\C#\\YouTube\\Curso Lógica de Programação\\Aula 2 - Saída de Dados\\Roomie-API\\Roomie-API\\Roomie-API.csproj": {
+    "C:\\Users\\Gustavo\\Documents\\Gustavo TI\\Programação\\Faculdade\\Projeto Integrador 5\\Roomie-API\\Roomie-API\\Roomie-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\Gustavo TI\\Programação\\C#\\YouTube\\Curso Lógica de Programação\\Aula 2 - Saída de Dados\\Roomie-API\\Roomie-API\\Roomie-API.csproj",
+        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\Gustavo TI\\Programação\\Faculdade\\Projeto Integrador 5\\Roomie-API\\Roomie-API\\Roomie-API.csproj",
         "projectName": "Roomie-API",
-        "projectPath": "C:\\Users\\Gustavo\\Documents\\Gustavo TI\\Programação\\C#\\YouTube\\Curso Lógica de Programação\\Aula 2 - Saída de Dados\\Roomie-API\\Roomie-API\\Roomie-API.csproj",
+        "projectPath": "C:\\Users\\Gustavo\\Documents\\Gustavo TI\\Programação\\Faculdade\\Projeto Integrador 5\\Roomie-API\\Roomie-API\\Roomie-API.csproj",
         "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gustavo\\Documents\\Gustavo TI\\Programação\\C#\\YouTube\\Curso Lógica de Programação\\Aula 2 - Saída de Dados\\Roomie-API\\Roomie-API\\obj\\",
+        "outputPath": "C:\\Users\\Gustavo\\Documents\\Gustavo TI\\Programação\\Faculdade\\Projeto Integrador 5\\Roomie-API\\Roomie-API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,20 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
