@@ -7,6 +7,7 @@
         public DateTime DataTermino { get; set; }
 
         public Usuario? Usuario { get; set; }
-        public Quarto? Quarto { get; set; }
+        public int QuartoId { get; set; }
+        public Quarto Quarto { get; set; } = null!;
     }
 }

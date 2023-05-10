@@ -34,7 +34,7 @@ public class RoomieContext : DbContext
 
             u.Property<string>("Cidade")
                 .IsRequired()
-                .HasColumnType("nvarchar(25)");
+                .HasColumnType("nvarchar(75)");
 
             u.Property<string>("UF")
                 .IsRequired()
@@ -101,7 +101,7 @@ public class RoomieContext : DbContext
 
             q.Property<string>("Cidade")
                 .IsRequired()
-                .HasColumnType("nvarchar(25)");
+                .HasColumnType("nvarchar(75)");
 
             q.Property<string>("UF")
                 .IsRequired()
@@ -155,7 +155,7 @@ public class RoomieContext : DbContext
 
             a.Property<string>("Cidade")
                 .IsRequired()
-                .HasColumnType("nvarchar(25)");
+                .HasColumnType("nvarchar(75)");
 
             a.Property<string>("UF")
                 .IsRequired()
@@ -201,7 +201,7 @@ public class RoomieContext : DbContext
             .HasOne(q => q.Reserva)
             .WithOne(r => r.Quarto)
             .IsRequired()
-            .OnDelete(DeleteBehavior.Cascade);
+            .OnDelete(DeleteBehavior.NoAction);
 
         modelBuilder.Entity<Quarto>()
             .HasMany(q => q.Fotos)
