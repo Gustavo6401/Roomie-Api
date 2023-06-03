@@ -7,8 +7,10 @@ namespace Roomie_API.Repositories
 {
     public class FotoRepository : Repository<Foto>, IFotoRepository
     {
+        private readonly RoomieContext _context;
         public FotoRepository(RoomieContext context) : base(context)
         {
+            _context = context;
         }
     }
 }

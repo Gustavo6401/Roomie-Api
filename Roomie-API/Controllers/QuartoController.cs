@@ -28,7 +28,7 @@ namespace Roomie_API.Controllers
             return Ok(dto);
         }
 
-        [HttpGet("{id:int}", Name = "GetUsuario")]
+        [HttpGet("{id:int}", Name = "GetQuarto")]
         public async Task<ActionResult<IEnumerable<QuartoDTO>>> Index(int id)
         {
             var dto = await _service.GetByIdAsync(id);
@@ -49,7 +49,7 @@ namespace Roomie_API.Controllers
 
             await _service.CreateAsync(dto);
 
-            return new CreatedAtRouteResult("GetUsuario", new { id = dto.Id }, dto);
+            return new CreatedAtRouteResult("GetQuarto", new { id = dto.Id }, dto);
         }
 
         [HttpPut("{id:int}")]

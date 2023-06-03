@@ -7,8 +7,10 @@ namespace Roomie_API.Repositories
 {
     public class ReservaRepository : Repository<Reserva>, IReservaRepository
     {
+        private readonly RoomieContext _context;
         public ReservaRepository(RoomieContext context) : base(context)
         {
+            _context = context;
         }
     }
 }

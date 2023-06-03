@@ -7,8 +7,10 @@ namespace Roomie_API.Repositories
 {
     public class QuartoRepository : Repository<Quarto>, IQuartoRepository
     {
+        private readonly RoomieContext _context;
         public QuartoRepository(RoomieContext context) : base(context)
         {
+            _context = context;
         }
     }
 }

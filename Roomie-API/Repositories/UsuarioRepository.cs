@@ -7,8 +7,10 @@ namespace Roomie_API.Repositories
 {
     public class UsuarioRepository : Repository<Usuario>, IUsuarioRepository
     {
+        private readonly RoomieContext _context;
         public UsuarioRepository(RoomieContext context) : base(context)
         {
+            _context = context;
         }
     }
 }

@@ -31,7 +31,7 @@ namespace Roomie_API.Repositories.Base
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            
         }
 
         public async Task<IEnumerable<T>> GetAllAsync()

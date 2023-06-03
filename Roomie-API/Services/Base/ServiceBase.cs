@@ -29,7 +29,7 @@ public class ServiceBase<T, U> : IServiceBase<T, U> where T : class where U : cl
 
     public void Dispose()
     {
-        throw new NotImplementedException();
+        
     }
 
     public async Task<IEnumerable<T>> GetAllAsync()
