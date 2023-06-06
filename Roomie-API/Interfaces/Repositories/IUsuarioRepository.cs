@@ -5,5 +5,6 @@ namespace Roomie_API.Interfaces.Repositories
 {
     public interface IUsuarioRepository : IRepository<Usuario>
     {
+        public Task<Usuario> FazerLoginAsync(string email, string senha);
     }
 }

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pyAzbOK8bN+3AUz9cYsDzovjAYCWQdtHGnoHYGAW4y/JORZ94973DetGsNvvjFJ5j9zFq2j0hh5sae2w+4chnA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gustavo\\Documents\\Gustavo TI\\Programação\\Faculdade\\Projeto Integrador 5\\Roomie-API\\Roomie-Client\\Roomie-Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gustavo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

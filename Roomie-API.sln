@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roomie-API", "Roomie-API\Roomie-API.csproj", "{45C5DD21-CB2B-44F8-BBA6-D9C04F44C54B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roomie-API", "Roomie-API\Roomie-API.csproj", "{45C5DD21-CB2B-44F8-BBA6-D9C04F44C54B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roomie-Client", "Roomie-Client\Roomie-Client.csproj", "{250ABF5C-6879-472B-BD75-E6E3D7E2F883}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{45C5DD21-CB2B-44F8-BBA6-D9C04F44C54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45C5DD21-CB2B-44F8-BBA6-D9C04F44C54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45C5DD21-CB2B-44F8-BBA6-D9C04F44C54B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{250ABF5C-6879-472B-BD75-E6E3D7E2F883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250ABF5C-6879-472B-BD75-E6E3D7E2F883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250ABF5C-6879-472B-BD75-E6E3D7E2F883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250ABF5C-6879-472B-BD75-E6E3D7E2F883}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

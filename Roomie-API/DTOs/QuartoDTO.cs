@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Newtonsoft.Json;
 using Roomie_API.Entities;
 
 namespace Roomie_API.DTOs;
@@ -45,7 +46,11 @@ public class QuartoDTO
     [Required]
     public string? Status { get; set; }
 
+    [JsonIgnore]
     public Usuario? Usuario { get; set; }
+    public int UsuarioId { get; set; }
+    [JsonIgnore]
     public Reserva? Reserva { get; set; }
+    [JsonIgnore]
     public IList<Foto>? Fotos { get; set; }
 }

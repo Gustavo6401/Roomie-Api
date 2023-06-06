@@ -1,4 +1,6 @@
-﻿namespace Roomie_API.Entities
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Roomie_API.Entities
 {
     public class Quarto
     {
@@ -17,7 +19,9 @@
         public string? Disponibilidade { get; set; }
         public string? Status { get; set; }
 
+        [ForeignKey("UsuarioId")]
         public Usuario? Usuario { get; set; }
+        public int UsuarioId { get; set; }
         public Reserva? Reserva { get; set; }
         public IList<Foto>? Fotos { get; set; }
     }

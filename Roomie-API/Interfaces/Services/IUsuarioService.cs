@@ -6,5 +6,6 @@ namespace Roomie_API.Interfaces.Services
 {
     public interface IUsuarioService : IServiceBase<UsuarioDTO, Usuario>
     {
+        public Task<UsuarioDTO> FazerLoginAsync(string email, string senha);
     }
 }

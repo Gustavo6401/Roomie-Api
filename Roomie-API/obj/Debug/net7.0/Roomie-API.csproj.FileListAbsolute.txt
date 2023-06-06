@@ -76,3 +76,4 @@ C:\Users\Gustavo\Documents\Gustavo TI\Programação\Faculdade\Projeto Integrador
 C:\Users\Gustavo\Documents\Gustavo TI\Programação\Faculdade\Projeto Integrador 5\Roomie-API\Roomie-API\obj\Debug\net7.0\Roomie-API.genruntimeconfig.cache
 C:\Users\Gustavo\Documents\Gustavo TI\Programação\Faculdade\Projeto Integrador 5\Roomie-API\Roomie-API\obj\Debug\net7.0\ref\Roomie-API.dll
 C:\Users\Gustavo\Documents\Gustavo TI\Programação\Faculdade\Projeto Integrador 5\Roomie-API\Roomie-API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Gustavo\Documents\Gustavo TI\Programação\Faculdade\Projeto Integrador 5\Roomie-API\Roomie-API\bin\Debug\net7.0\Newtonsoft.Json.dll

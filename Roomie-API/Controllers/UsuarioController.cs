@@ -42,6 +42,19 @@ namespace Roomie_API.Controllers
             return Ok(dto);
         }
 
+        [HttpGet("email&senha")]
+        public async Task<ActionResult<UsuarioDTO>> FazerLogin(string email, string senha)
+        {
+            var dto = await _service.FazerLoginAsync(email, senha);
+
+            if(dto == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(dto);
+        }
+
         [HttpPost]
         public async Task<ActionResult> Create([FromBody] UsuarioDTO dto)
         {

@@ -17,4 +17,11 @@ public class UsuarioService : ServiceBase<UsuarioDTO, Usuario>, IUsuarioService
         _mapper = mapper;
         _repository = repository;
     }
+
+    public async Task<UsuarioDTO> FazerLoginAsync(string email, string senha)
+    {
+        var entity = await _repository.FazerLoginAsync(email, senha);
+
+        return _mapper.Map<UsuarioDTO>(entity);
+    }
 }
